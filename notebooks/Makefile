@@ -1,8 +1,8 @@
-BUILD_DIR=../html
+BUILD_DIR=../docs/_static/tutorials
 
 all:
 	for file in ./*.ipynb; do \
-		jupyter nbconvert $${file} --to html --output-dir ../html ; \
+		jupyter nbconvert $${file} --to html --output-dir $(BUILD_DIR) ; \
 	done
 
 clean:
