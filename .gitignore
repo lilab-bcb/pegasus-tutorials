@@ -1,0 +1,17 @@
+docs/_build
+*~
+
+.DS_Store
+
+notebooks/*.zarr.zip
+notebooks/*.txt
+notebooks/*.png
+notebooks/*.csv
+notebooks/*.gmt
+notebooks/*.xlsx
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
